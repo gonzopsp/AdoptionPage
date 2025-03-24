@@ -1,0 +1,27 @@
+*{margin: 0;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-bar{
+    background-color:darkkhaki;
+}
+.top-bar-items{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+.top-bar-item{float: left;}
+.top-bar-item a{
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.top-bar-item a:hover{
+    background-color:salmon ;
+}
+
+#main-page-text{
+    margin: 10vw;
+    padding: 10vw;
+}
