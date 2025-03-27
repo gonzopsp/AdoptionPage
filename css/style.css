@@ -21,7 +21,61 @@
     background-color:salmon ;
 }
 
+.active{
+    background-color:darkgoldenrod;
+}
+
+#main-title{
+    padding: 25px;
+    text-align: center;
+}
+
 #main-page-text{
-    margin: 10vw;
-    padding: 10vw;
+    margin: 8vw;
+    padding: 10px;
+}
+#nuestros-peludos h2{
+    text-align: center;
+}
+
+.galeria-mascotas{
+    width: 150px;
+    float:left;
+    margin: 2% 2%;
+    
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 25px;
+    
+    
+    text-align: center;
+    text-decoration: none;
+
+    
+
+    
+}
+.galeria-mascotas a:hover{
+    background-color:tomato;
+}
+
+.galeria-mascotas img{
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.container-galeria{
+  text-align: center;
+  
+}   
+
+
+#para-adoptar{
+    padding-left: 50px;
+    width: 50dvw;
+    height: 20dvh;
+    display: block;
+
 }
